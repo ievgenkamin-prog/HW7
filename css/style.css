@@ -1,0 +1,226 @@
+
+      *{
+        box-sizing: border-box;
+        }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    body{
+        font-family: "Roboto", sans-serif;
+        background-color: #FFFFFF;
+        line-height: 100%;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .container{
+        width: 1200px;
+        margin:0 auto;
+        padding: 0 15px;
+    }
+    .title{
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        line-height: 42px;
+    }
+    /* Header section */
+
+    .header-container{
+        display: flex;
+        align-items: center;
+        padding: 25px 0;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+    }
+    .header-logo{
+        margin-right: 93px;
+    }
+    .header-link{
+    margin-right: 50px;
+    }
+    .header-contact{
+        margin-left: auto;
+    }
+    .contact{
+    margin-left: 50px;
+    }
+    .link-color{
+        color: #2196F3;
+    }
+    .color-grey{
+        color: #757575;
+    }
+    
+        /* Footer section */
+    .footer{
+        background-color: #2F303A;
+        padding: 60px 0 51px;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+    }
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+    .adress{
+        color: #FFFFFF;
+        line-height: 21px;
+    }
+    .footer-contact{
+        color: #FFFFFF60;
+        line-height: 21px;
+    }
+    .adress, .footer-contact{
+        margin-bottom: 9px;
+    }
+        /* Hero section */
+    .hero{
+        background-color: #2F303A;
+    }
+    .hero-container{
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .main-title{
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        max-width: 696px;
+        text-align: center;
+    }
+    .button{
+        background-color: #2196F3;
+        color: #FFFFFF;
+        border: none;
+        width: 200px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 4px;
+        margin: 30px 0;
+    }
+    .button>a{
+        display: block;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* Advan section */
+    .advan-container{
+        display: flex;
+        margin: 94px 0;
+        justify-content: center;
+        gap: 30px;
+    }
+    .description{
+        width: 270px;
+    }
+    .description>h3{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+    .description>p{
+        font-weight: 400;
+        color: #757575;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
+    /* Activity section */
+    .activity{
+        text-align: center;
+    }
+    .activity-container{
+        display: flex;
+        gap: 30px;
+        margin: 50px 0 94px;
+        justify-content: center;
+    }
+    /* Team section */
+    .team{
+        text-align: center;
+        background-color: #F5F4FA;
+        min-height: 648px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-container{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .person{
+        background-color: #FFFFFF;
+    }
+    .person>h4{
+        margin: 30px 0 10px;
+        color: #212121;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+    }
+    .person>p{
+        margin-bottom: 30px;
+        color: #757575;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+    }
