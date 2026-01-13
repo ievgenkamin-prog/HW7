@@ -414,3 +414,6 @@ display: none;
     top:102px;
     left:24px;
 }
+.nowrap{
+    text-wrap:nowrap;
+}
