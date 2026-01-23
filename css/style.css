@@ -101,7 +101,6 @@ table {
         width: 1200px;
         margin:0 auto;
         padding: 0 15px;
-        transition: 1s linear;
     }
     .title{
         font-size: 36px;
@@ -475,7 +474,7 @@ row-gap: 30px;
 margin: 0 -15px;
 }
 .portfolio-card {
-flex: 0 0 33.333%;
+flex: 1 1 30%;
 padding: 0 15px;
 }
 .portfolio-card > div {
@@ -526,6 +525,7 @@ align-content: center;
 }
 .nowrap{
     text-wrap:nowrap;
+    transition: 1s linear;
 }
  /* Index-icons section */
 .svg-style{
@@ -673,14 +673,20 @@ align-items: center;
     .side-menu:hover{
         width: 200px;
     }
-    body:has(.side-menu:hover) .container{
-        transform: translateX(100px);
+    body:has(.side-menu:hover) .container1{
+        padding: 0 15px 0 200px;
     }
     body:has(.side-menu:hover) .menu-title{
         transform: scale(1);
     }
     body:has(.side-menu:hover) .menu-list{
         transform: translateX(0);
+    }
+    body:has(.side-menu:hover) .nowrap{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
     }
     .menu-title {
     padding: 0px 60px 30px;
@@ -699,4 +705,14 @@ align-items: center;
     transform: translateX(-200px);
     transition: 1s linear;
     text-wrap: nowrap;
+}
+.container1{
+    width: 1200px;
+    margin:0 auto;
+    padding: 0 15px 0 60px;
+    transition: 1s linear;
+}
+.portfolio-card1{
+    flex:0 0 30%;
+    padding: 0 15px;
 }
